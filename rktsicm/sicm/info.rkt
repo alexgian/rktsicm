@@ -1,6 +1,6 @@
 #lang info
 
-(define collection "sicm")
+(define collection "sicm-alex")
 
 (define compile-omit-paths '("tests"))
 (define test-omit-paths '(#rx"sicm[/|\\\\]calculus"
@@ -28,4 +28,4 @@
 (define primary-file "main.rkt")
 
 (define categories '(scientific))
-(define pkg-desc "Port of scmutils to racket")
+(define pkg-desc "bdeket's port of scmutils to racket, mercilesly hacked")
